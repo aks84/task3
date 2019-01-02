@@ -1,4 +1,275 @@
-body{
+body {
+	margin: 0px;
+	padding: 0px;
+}
 
-    background-color: silver;
+header {
+	width: 100%;
+	height: 100px;
+	background: #68f5c5;
+}
+
+.logo {
+	width: 12%;
+	height: 100px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	margin: 5px 0px 5px 70px;
+	float: left;
+}
+
+.navWrapper {
+	width: 60%;
+	height: 100px;
+	float: right;
+	display: inline-block;
+}
+
+nav,
+ul {
+	display: inline-block;
+}
+
+.navWrapper > nav > ul > li {
+	list-style: none;
+	float: left;
+	padding: 15px;
+}
+
+.mainWrapper {
+	width: 96%;
+	margin: auto;
+}
+.bannerAndForm {
+	margin-top: -10px;
+	width: 100%;
+	height: auto;
+	display: block;
+	float: left;
+	overflow: hidden;
+}
+
+.aboutUs,
+.servicesWrapper,
+.safetyWrapper,
+.clientWrapper {
+	width: 100%;
+	height: auto;
+	display: block;
+	float: left;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.bannerBox {
+	width: 80%;
+	float: left;
+	display: inline-block;
+}
+.bannerBox img {
+	width: 95%;
+	margin: auto;
+}
+
+.formWrapper {
+	width: 19.5%;
+	float: left;
+	border: 1px solid skyblue;
+	margin-top: 15px;
+}
+
+.formWrapper input,
+textarea {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 95%;
+}
+
+.formWrapper h4 {
+	background: skyblue;
+	text-align: center;
+	margin: 0px 0px 10px 0px;
+	padding: 10px 0px;
+}
+#submit {
+	background: skyblue;
+	text-align: center;
+	margin: 0px;
+	padding: 5px 0px;
+}
+
+.secondWrap {
+	width: 80%;
+	margin: auto;
+}
+.aboutBox,
+.aboutBox1 {
+	display: inline-block;
+	width: 48%;
+	overflow: hidden;
+	line-height: 170%;
+}
+.aboutUs {
+	margin-top: 50px;
+}
+
+.aboutBox p {
+	line-height: 170%;
+}
+
+.aboutBox1 img {
+	padding: 5px;
+	border: 1px solid skyblue;
+	border-radius: 5px;
+	float: right;
+	height: 300px;
+}
+
+.safetyImgWrap img {
+	height: 300px;
+	padding: 5px;
+	border: 1px solid skyblue;
+	border-radius: 5px;
+	float: right;
+}
+
+.serviceH {
+	text-align: center;
+	padding: 10px;
+}
+
+.flexWrap {
+	display: block;
+	width: 100%;
+}
+.serviceBox {
+	display: inline-block;
+	width: 50%;
+	float: left;
+}
+
+.serviceBox img {
+	width: 110px;
+	height: 110px;
+	padding: 5px;
+	border: 1px solid skyblue;
+
+	border-radius: 50%;
+}
+
+.roundImg {
+	display: inline-block;
+	float: left;
+	margin-right: 35px;
+	padding: 10px;
+}
+
+.safetyPara {
+	width: 50%;
+	float: left;
+	display: inline-block;
+}
+
+.yourSategy,
+.customerService,
+.about,
+.cliets {
+	text-align: center;
+	padding: 10px;
+}
+.safetyImgWrap {
+	display: inline-block;
+	width: 50%;
+}
+
+.CCimgWrap {
+	display: inline-block;
+	width: 50%;
+	float: left;
+}
+
+.CCimgWrap img {
+	height: 200px;
+	padding: 5px;
+	border: 1px solid skyblue;
+	border-radius: 5px;
+	float: left;
+	width: 90%;
+}
+
+.logoWrap {
+	width: 90%;
+	height: 150px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.logoWrap img {
+	width: 90px;
+	height: 100px;
+	border: 1px solid skyblue;
+	border-radius: 5px;
+}
+
+footer {
+	float: left;
+	width: 100%;
+}
+
+.footerWrapper {
+	width: 100%;
+	background: deepskyblue;
+	height: 170px;
+	border-radius: 5px;
+}
+
+.footerWigs {
+	display: inline-block;
+	width: 70%;
+	float: left;
+	margin-left: 10px;
+}
+
+.footerWigs1 {
+	display: inline-block;
+	width: 29%;
+	float: left;
+}
+
+.footerWigs1 ul {
+	margin-top: -10px;
+}
+.footerWigs1 ul li {
+	list-style: none;
+	padding: 4px;
+}
+.footerWigs1 ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.footerWigs1 ul li a:hover {
+	color: white;
+}
+div#copyAndSMicons {
+	width: 100%;
+	height: 35px;
+	margin: 5px 0px 5px 0px;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+}
+.copy {
+	display: inline-block;
+	float: left;
+	width: 15%;
+	margin-left: 100px;
+	line-height: 35px;
+}
+
+.SMicons {
+	display: inline-block;
+	float: right;
+	width: 25%;
+	margin-left: 100px;
+	line-height: 35px;
 }

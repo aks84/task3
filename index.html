@@ -3,6 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="smallscreen.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>CSS Media Query</title>
 </head>
 <body>
@@ -12,9 +14,9 @@
 		<!-- logo area -->
 		<div class="headerWrapper">
 			<div class="logo">
-				<img src="./img/ .png" alt="site logo">
+				<img src="./img/logo.png" alt="site logo">
 			</div>
-		</div>
+		
 		<!-- navigation area -->
 		<div class="navWrapper">
 			<nav>
@@ -29,104 +31,153 @@
 				</ul>
 			</nav>
 		</div>
+	</div>
 	</header>
 	<!-- banner and form area -->
 	<div class="mainWrapper">
+
+
 		<!-- top banner area -->
 		<div class="bannerAndForm">
 			<div class="bannerBox">
-				<img src="#" alt="banner one">
+				<img src="./img/trucknumber.jpg" alt="banner one">
 			</div>
-		</div>
+		
 
 <!-- form area -->
 		<div class="formWrapper">
-			<form action="">
-				<input type="text" name="name" id=""><br>
-				<input type="number" name="number" id=""><br>
-				<input type="email" name="email" id=""><br>
-				<textarea name="message" id="" cols="30" rows="10"></textarea><br>
-				<input type="submit" value="Submit">
-			</form>
+			<h4>Contact Us</h4>
+			<div class="contact">
+						
+				<form action="">
+					<input type="text" name="name" id="" placeholder=" Your Name"><br>
+					<input type="tel" name="number" id="" placeholder=" Mobile #"><br>
+					<input type="email" name="email" id="" placeholder=" example@mail.com"><br>
+					<textarea name="message" id="" cols="29" rows="10" placeholder=" Type your message here..."></textarea><br>
+					<input id="submit" type="submit" value="Submit">
+				</form>
+			</div>
 		</div>
 	</div>
 
 
 	<!-- about us area -->
-
+<div class="secondWrap">
 	<div class="aboutUs">
 		<div class="aboutWrap">
+			<div class="about"><h2>ABOUT US</h2></div>
 			<div class="aboutBox">
-				<h2>About Us</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis id nostrum eum accusantium odio corrupti dolores dolor vero, voluptates deserunt sequi culpa eveniet, aliquam laudantium impedit minima velit facilis vitae nobis dicta blanditiis. Vero voluptatibus molestiae ut culpa quia officia.</p>
+				<div class="aboutH">
+						<h2>About</h2>
+				</div>
+				
+				<p>At ITC Logistics Our approach focuses on how we deliver operational excellence to provide viable, cost-effective technology-enabled solutions to the most challenging logistics & supply chain management questions. We reciprocate through our work entirely with a progressive mindset. “YOU TRUST US, WE CARE”. Whether a small, medium or a large business.</p>
+
+<p>we cater to every technological need for your business with a modern touch, keeping the world in motion.</p>
 			</div>
-			<div class="aboutBox">
-				<img src="./img/ .png" alt="about us image">
+			<div class="aboutBox1">
+				<img src="./img/AirServices.jpg" alt="about us image">
 			</div>
 		</div>
 	</div>
 
 	<!-- our services area -->
 	<div class="servicesWrapper">
-		<h2>Our Services</h2>
-		<div class="serviceBox">
-			<div class="roundImg">
-				<img src="./img/ .png" alt="service">
+		<div class="serviceH">
+			<h2>OUR SERVICES</h2>
+		</div>
+		<div class="flexWrap">
+			<div class="serviceBox">
+
+				<div class="roundImg">
+					
+					<img src="./img/surface.jpg" alt="service">
+				</div>
+				<div class="linkAndPara">
+					<div>
+						<h2>Surface Service</h2>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, blanditiis?</p>
+				</div>
 			</div>
-			<div class="linkAndPara">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, blanditiis?</p>
+
+			<div class="serviceBox">
+				
+				<div class="roundImg">
+					<img src="./img/AirServices.jpg" alt="service">
+
+				</div>
+				<div class="linkAndPara">
+					<div>
+						<h2>Air Service</h2>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, facilis.</p>
+				</div>
+			</div>
+
+			<div class="serviceBox">
+				
+				<div class="roundImg">
+					<img src="./img/rails.jpg" alt="service">
+
+				</div>
+				<div class="linkAndPara">
+					<div>
+						<h2>Train Service</h2>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, dolorem!</p>
+				</div>
+			</div>
+
+			<div class="serviceBox">
+				
+				<div class="roundImg">
+					<img src="./img/movers-services.jpg" alt="service">
+
+				</div>
+				<div class="linkAndPara">
+					<div>
+						<h2>Moving Solution</h2>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, quaerat.</p>
+				</div>
 			</div>
 		</div>
 
-		<div class="serviceBox">
-			<div class="roundImg">
-				<img src="./img/ .png" alt="service">
-
-			</div>
-			<div class="linkAndPara">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, facilis.</p>
-			</div>
-		</div>
-
-		<div class="serviceBox">
-			<div class="roundImg">
-				<img src="./img/ .png" alt="service">
-
-			</div>
-			<div class="linkAndPara">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, dolorem!</p>
-			</div>
-		</div>
-
-		<div class="serviceBox">
-			<div class="roundImg">
-				<img src="./img/ .png" alt="service">
-
-			</div>
-			<div class="linkAndPara">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, quaerat.</p>
-			</div>
-		</div>
 	</div>
+
+
 <!-- safety display area -->
 <div class="safetyWrapper">
-	<h2>Your Safety</h2>
+	<div class="yourSategy">
+		<h2>YOUR SAFETY</h2>
+	</div>
 	<div class="safetyCol">
 		<div class="safetyPara">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora eligendi qui ipsam fuga dolore aliquam ducimus asperiores ipsum numquam quis.</p>
+			<div class="safety">
+				<h2>Safety</h2>
+			</div>
+			<p>ITC Logistics is a member of the partners in Protection Program (PIP). This program is designed to enhance border security, combat organized crime and terrorism, increase awareness of customs compliance issues, and help detect and prevent contraband smuggling. Being a part of a safety program such as PIP holds ITC Logistics accountable, and ensures the safety of your products as they move. We are focused on providing the safest and most secure avenue of shipping for our customers. These safety measures eliminate any risk factor that may come with transporting goods. Safety and security for our customer’s freight is our first priority, and we will continue to ensure that our safety policy is upheld to the highest standard.</p>
 			
 		</div>
 		<div class="safetyImgWrap">
-			<img src="" alt="safety image">
+			<img src="./img/safety.jpg" alt="safety image">
 		</div>
 	</div>
 
-	<div class="safetyCol">
-		<div class="safetyImgWrap">
-			<img src="" alt="">
+	<div class="customerCare">
+		<div class="customerService">
+			<h2>24x7 CUSTOMER SERVICE</h2>
+		</div>
+		<div class="CCimgWrap">
+			
+			<img src="./img/speed.jpg" alt="">
 		</div>
 		<div class="safetyPara">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio iste deleniti nesciunt unde corrupti officia corporis at vitae odit enim.</p>
+			<div>
+				<h3>UNMATCHED CUSTOMER SERVICE, AVAILABLE 24-7, 365 DAYS PER YEAR. </h3>
+			</div>
+			<p>With FullTruckload.com, you can rest assured your shipment needs are being handled by professionals who are experts in full truckloads. Don’t trust your shipments to just anyone—with our wide range of capabilities and services, we’re the full truckload experts you can count on.</p>
 		</div>
 		
 	</div>
@@ -134,37 +185,60 @@
 	<!-- Clent Area -->
 
 	<div class="clientWrapper">
-		<h2>Our Clients</h2>
+			<div class="cliets">
+					<h2>OUR CLIENTS</h2>
+			</div>
 		<div class="logoWrap">
-			<img src="./img/ .png" alt="client logs">
-			<img src="./img/ .png" alt="client logs">
-			<img src="./img/ .png" alt="client logs">
-			<img src="./img/ .png" alt="client logs">
-			<img src="./img/ .png" alt="client logs">
-			<img src="./img/ .png" alt="client logs">
-			<img src="./img/ .png" alt="client logs">
-			<img src="./img/ .png" alt="client logs">
-			<img src="./img/ .png" alt="client logs">
-			<img src="./img/ .png" alt="client logs">
+			<img src="./img/clients/logo2.jpg" alt="client logs">
+			<img src="./img/clients/logo3.jpg.png" alt="client logs">
+			<img src="./img/clients/logo4.jpg.png" alt="client logs">
+			<img src="./img/clients/logo5.jpg.png" alt="client logs">
+			<img src="./img/clients/logo6.png" alt="client logs">
+			<img src="./img/clients/logo7.jpg.png" alt="client logs">
+			<img src="./img/clients/logo8.jpg.png" alt="client logs">
+			<img src="./img/clients/logo9.jpg.png" alt="client logs">
+			<img src="./img/clients/logo10.jpg.png" alt="client logs">
+			
 		</div>
 	</div>
+
+	</div>
+	<!-- secondWrap -->
 </div>
+
+
 <!-- main wrapper ends here -->
 
 <footer>
 	<div class="footerWrapper">
-		<div class="footerWigs"></div>
-		<div class="footerWigs"></div>
+		<div class="footerWigs">
+			<div class="abtUs">
+				<h2>About Us</h2>
+			</div>
+			<p>At ITC Logistics Our approach focuses on how we deliver operational excellence to provide viable, cost-effective technology-enabled solutions to the most challenging logistics & supply chain management questions. We reciprocate through our work entirely with a progressive mindset. “YOU TRUST US, WE CARE”. Whether a small, medium or a large business.</p>
+		</div>
+		<div class="footerWigs1">
+			<h2>Quick Links</h2>
+			
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Contacts</a></li>
+					</ul>
+				
+			
+		</div>
 	</div>
-	<div class="copyAndSMicons">
+	<div id="copyAndSMicons">
 		<div class="copy">
 			&copy; 2019
 		</div>
 		<div class="SMicons">
-			<a href="https://www.facebook.com"><img src="./img/ .png" alt="our social media page"></a>
-			<a href="https://www.facebook.com"><img src="./img/ .png" alt="our social media page"></a>
-			<a href="https://www.facebook.com"><img src="./img/ .png" alt="our social media page"></a>
-			<a href="https://www.facebook.com"><img src="./img/ .png" alt="our social media page"></a>
+			<a href="https://www.facebook.com"><i class="fa fa-facebook-official" style="font-size:36px"></i></a>
+			<a href="https://www.twitter.com"><i class="fa fa-twitter-square" style="font-size:36px"></i></a>
+			<a href="https://www.youtube.com"><i class="fa fa-youtube-square" style="font-size:36px"></i></a>
+			<a href="https://www.linkedin.com"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
 		</div>
 	</div>
 </footer>

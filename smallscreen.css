@@ -1,0 +1,62 @@
+@media only screen and (max-width: 413px) {
+	.headerWrapper,
+	.bannerAndForm,
+	.bannerBox,
+	.formWrapper,
+	.secondWrap,
+	.aboutUs,
+	.aboutWrap,
+	.about,
+	.aboutBox,
+	.aboutBox1,
+	.serviceH,
+	.serviceBox,
+	.flexWrap,
+	.safetyWrapper,
+	.yourSategy,
+	.safetyImgWrap,
+	.safetyPara,
+	.CCimgWrap,
+	.safetyCol,
+	.customerCare,
+	.clientWrapper,
+	.cliets,
+	.logoWrap,
+	.footerWrapper,
+	.footerWigs,
+	.footerWigs1,
+	.copy,
+	.SMicons,
+	#copyAndSMicons .servicesWrapper,
+	.safetyWrapper {
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+		display: block;
+		float: left;
+	}
+
+	.serviceBox img {
+		width: 100%;
+		padding: 5px;
+		border: 1px solid skyblue;
+		border-radius: 5px;
+	}
+	.linkAndPara {
+		width: 100%;
+		float: left;
+	}
+	.logoWrap {
+		width: 100%;
+		height: auto;
+	}
+	.footerWrapper,
+	.footerWigs,
+	.footerWigs1,
+	.copyAndSMicons,
+	.copy,
+	.SMicons {
+		height: auto;
+		text-align: center;
+	}
+}
