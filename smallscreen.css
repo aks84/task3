@@ -1,4 +1,9 @@
-@media only screen and (max-width: 413px) {
+@media only screen and (max-width: 600px) {
+
+	*{
+		margin:0px;
+		padding: 0px;
+			}
 	.headerWrapper,
 	.bannerAndForm,
 	.bannerBox,
@@ -28,7 +33,10 @@
 	.copy,
 	.SMicons,
 	#copyAndSMicons .servicesWrapper,
-	.safetyWrapper {
+	.safetyWrapper,
+	.mapWrap,
+	.contactForm,
+	#contactForm{
 		width: 100%;
 		margin: 0px;
 		padding: 0px;
@@ -59,4 +67,7 @@
 		height: auto;
 		text-align: center;
 	}
+}
+
+
 }
